@@ -1,3 +1,83 @@
-<title>P8 Project</title>
-<h1>P8 Project</h1>
-<p>Wowzers, we've made a real big project with lotsa cool stuff :D</p>
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <!--Stating which set of characters are used. Useful in case you may want emoji-rich charactersets-->
+    <meta charset="UTF-8" />
+    <!--Title showed in bar-->
+    <title>P8 Project</title>
+  
+    <!-- Bootstrap frontend library (using CDN) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    
+    <!--Own custom css-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <!-- Modified hero from Bootstrap: https://getbootstrap.com/docs/5.3/examples/heroes/ -->
+      <div class="gradient-background">
+        <div class="container col-xxl-8 px-4 py-5">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img
+                src="assets/images/woman cooling down outlined.png"
+                class="d-block mx-lg-auto img-fluid rounded"
+                alt="A woman cooling down using a fan"
+                height="450"
+                loading="lazy"
+              />
+            </div>
+            <div class="col-lg-6">
+              <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+                What is the Arm Bazooka Project?
+              </h1>
+              <p class="lead">
+                A VR project where you can detach your arm from your body by firing it. When it hits a surface, it'll stick, and you can continue using your arm at that location.<br />
+                The aim is to see how well this would allow for distant object manipulation, when compared to more traditional methods such as a laser.<br />
+              </p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <a
+                  role="button"
+                  href="pages/page1"
+                  class="btn btn-light btn-lg px-4 me-med-2"
+                >
+                  Button 1
+                </a>
+                <a
+                  role="button"
+                  href="pages/page2"
+                  class="btn btn-outline-light btn-lg px-4"
+                >
+                  Button 2
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="infobox">
+      <div class="container py-5">
+        <h1 class="lh-1 mb-3">
+          HTML is what?
+        </h1>
+        <p>
+          Use <a href="https://www.w3schools.com/html/default.asp">w3schools</a> for general html info, and <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Bootstrap</a> to see formatting info (all the classes).
+        </p>
+      </div>
+    </div>
+
+    <!-- Bootstrap frontend library JS stuffs (using CDN) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
